@@ -1,0 +1,193 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/04/wooden-floor-1853403_1280.jpg);
+    background-size: cover;
+}
+
+/*Heder*/
+.container-header {
+    width: 80vw;
+    margin: 20px auto;
+}
+
+header {
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+
+.forest {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding:10px;
+    background-color: white;
+}
+
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin:3px solid white;
+}
+
+.intro h1{
+    border: 4px solid white;
+    font-size: 50px;
+}
+
+.intro p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+nav {
+    background-color: grey;
+    margin:0 auto;
+    text-align: center;
+}
+
+nav ul li {
+    line-height: 100%;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px;
+    border: 2
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Body*/
+
+.row {
+    width: 80vw;
+    margin: 20px auto;
+}
+
+.left-container, .right-container {
+    width: 20vw;
+    float: left;
+}
+
+.organicTheme {
+    width: 100%;
+    background-color: antiquewhite;
+    margin: 0px auto 15px;
+    text-align: left;
+    border-radius: 5px;
+
+}
+
+i {
+    float:left;
+    line-height: 50%;
+    padding: 3px 10px 0 3px;
+    font-size:20px;
+    color: orange;
+}
+
+.organicTheme ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    padding:5px;
+}
+
+.organicTheme a{
+    color: green;
+    text-decoration: none;
+}
+
+
+
+main {
+    width: 40vw;
+    float: left;
+
+}
+
+.main-content {
+    width: 95%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding:10px;
+    border-radius: 5px;
+
+}
+
+.main-content h1 {
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    padding:10px;
+}
+
+
+.text-widget {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.text-widget h1 {
+    margin-bottom: 20px;
+}
+
+
+.container-footer{
+    width: 80vw;
+    height: 20vh;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+footer{
+    height: 100%;
+}
+
+.autore {
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 1px solid grey;
+}
+
+.icon{
+    height: 88%;
+    width: 33.1%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.icon i {
+    color: darkgrey;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
